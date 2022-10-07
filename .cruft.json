@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/bullyrooks/spring-microservice-template",
-  "commit": "3224683422b0bb8fea3283f4a378776aa934a4f5",
+  "commit": "8898d0985cf6327a5d2e0ccf45a72506aa66e24f",
   "context": {
     "cookiecutter": {
       "service_name": "Test Service One",
@@ -11,8 +11,12 @@
       "service_registry": "bullyrooks/test-service-one",
       "service_namespace": "bullyrooks",
       "githuborg": "bullyrooks-org",
+      "_copy_without_render": [
+        "helm/**/templates/*"
+      ],
       "_template": "https://github.com/bullyrooks/spring-microservice-template"
     }
   },
-  "directory": null
+  "directory": null,
+  "checkout": null
 }
