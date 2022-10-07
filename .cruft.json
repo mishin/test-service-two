@@ -11,9 +11,6 @@
       "service_registry": "bullyrooks/test-service-one",
       "service_namespace": "bullyrooks",
       "githuborg": "bullyrooks-org",
-      "_copy_without_render": [
-        "helm/**/templates/*"
-      ],
       "_template": "https://github.com/bullyrooks/spring-microservice-template"
     }
   },
